@@ -15,6 +15,10 @@ git submodule update --init  # Pulls pybind11 subpackage
 python setup.py build [-j 12] # Optional parallel build for faster compilation
 python setup.py install [--user | -prefix ${INSTALLATION_DIR} ] 
 ```
+To install in Polaris,
+```bash
+git clone -b feature/polaris https://github.com/physnerds/larcv3.git
+```
 
 To verify your larcv installation, after install has completed:
 ```
